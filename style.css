@@ -212,13 +212,13 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 
 /* //////////////// 3rd section  ////////////////// */
 .our-services-container {
-    background-color: rgb(34, 34, 34);
-    border: 2px solid rgb(34, 34, 34) ;
+    background-color: rgb(255, 255, 255);
+    /* border: 2px solid rgb(34, 34, 34) ; */
 }
 
 #our-services-h1 {
     /* border: 2px solid red; */
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: xx-large !important;
     text-align: center;
