@@ -201,13 +201,65 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 }
 
 .img-div h3 {
-    display: flex;
-    flex-direction: row;
-    
-    align-items: center;
+    display: inline-block;
     margin: 0;
     font-size: 1rem; 
-    
+    white-space: nowrap; /* Ensure the text doesn't wrap */
 }
 
 /* ///////////////// 2 nd slide  ///////////// */
+
+
+/* //////////////// 3rd section  ////////////////// */
+.our-services-container {
+    background-color: rgb(34, 34, 34);
+    border: 2px solid rgb(34, 34, 34) ;
+}
+
+#our-services-h1 {
+    /* border: 2px solid red; */
+    color: white;
+    font-weight: bold;
+    font-size: xx-large !important;
+    text-align: center;
+    margin-top: 3%;
+}
+.our-services {
+    /* border: 2px solid red; */
+    padding-top: 30px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.services-card-img {
+    /* border:  2px solid red; */
+    width: 80px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 10px;
+
+
+}
+.services-card-title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.services-card-p {
+    text-align: center;
+}
+.services-card-btn {
+    width: 9rem !important;
+    height:  2.5rem !important;
+}
+.my-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+/* ////////////// 3rd section  ////////////////// */
