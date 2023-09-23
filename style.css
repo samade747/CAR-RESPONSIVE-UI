@@ -212,7 +212,7 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 
 /* //////////////// 3rd section  ////////////////// */
 .our-services-container {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 251, 251);
     /* border: 2px solid rgb(34, 34, 34) ; */
 }
 
@@ -237,10 +237,10 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 
 .services-card-img {
     /* border:  2px solid red; */
-    width: 80px;
+    width: 200px;
     margin-left: auto !important;
     margin-right: auto !important;
-    margin-top: 10px;
+    margin-top: 3px;
 
 
 }
@@ -252,10 +252,10 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 .services-card-p {
     text-align: center;
 }
-.services-card-btn {
+/* .services-card-btn {
     width: 9rem !important;
     height:  2.5rem !important;
-}
+} */
 .my-card {
     display: flex;
     flex-direction: column;
