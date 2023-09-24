@@ -142,70 +142,73 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 /* ///////////////   2nd slide    ////////////////// */
 
 .about-container {
+    /* border: 2px solid red; */
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     display: flex;
-    /* justify-content: space-between;
-    align-items: center; */
-    background-color: rgb(216, 240, 240);
-    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
 }
-
-.about {
-    /* border: 2px solid red; */
-    width: 80%;
-    height: 80%;
-    /* height: fit-content; */
+.about{
+    /* border: 2px solid red !important; */
+    width: 90%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-self: start;
-    margin: auto;
-    
+    justify-content: center;
+
 }
 
-.about-text {
-    max-width: 50%;
-    
-    
+#about-h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 5rem;
+    line-height: 0.9;
 }
 
+#about-span {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #E18234;
+}
 
-
-/* #about-img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px 5px 1px 1px;
-} */
-
-/* .about-card {
-    border: 2px solid white;
-    max-width: 32rem;
-    /* height: 40%; */
-    /* position: absolute;
-    margin-left: 35%;
-    margin-top: 5%;
-    box-shadow: 1px 2px 16px 0px rgba(0,0,0,0.32);
-    -webkit-box-shadow: 1px 2px 16px 0px rgba(0,0,0,0.32);
-    -moz-box-shadow: 1px 2px 16px 0px rgba(0,0,0,0.32);
-} */ */
-
-.img-div {
-    /* width: 20px; */
+.about-part-2{
     display: flex;
-    /* flex-direction: column; */
-    border-radius: 30px !important;
-    
-
-    
+    justify-content: space-around;
+    margin-top: 5rem;
 }
 
-.img-div h3 {
-    display: inline-block;
-    margin: 0;
-    font-size: 1rem; 
-    white-space: nowrap; /* Ensure the text doesn't wrap */
+.about-part-2-1{
+    display: flex;
+    width: 20%;
 }
+.about-part-2-2{
+    display: flex;
+    width: 20%;
+}
+.about-part-2-3{
+    display: flex;
+    width: 20%;
+}
+.about-part-2-4{
+    display: flex;
+    width: 20%;
+}
+
+.about-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #22AAE9;
+}
+.about-text p {
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    font-weight: 600;
+
+}
+
 
 /* ///////////////// 2 nd slide  ///////////// */
 
@@ -306,3 +309,175 @@ find-a-car-container {
     align-items: center;
 } */
 /* ////////////// 3rd section  ////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*///////////////////    reponsive    ///////////////////*/
+
+
+@media (min-width:1024px) and (max-width:1440px) {
+
+    /*/////////////////     find a car     /////////////////*/
+
+    .find-a-car-container {
+        margin-top: 10rem !important;
+    }
+
+    /*/////////////////     find a car end     /////////////////*/
+
+
+    media (min-width:993px) and (max-width:1024px) {
+
+        /*////////////////   about   ////////////////*/
+        .about {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    
+        #about-h1 {
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 2.5rem;
+            margin:0 0 0 0 !important;
+            margin-top: 3rem !important;
+            line-height: 0;
+        }
+    
+        #about-span {
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 2.5rem;
+            margin-top: 3rem !important;
+            color: #E18234;
+        }
+    
+        .about-part-2 {
+            display: flex;
+            justify-content: center !important;
+            flex-wrap: wrap !important;
+            width: 100%;
+        }
+        
+        .about-part-2-1 {
+            width: 50% !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        .about-part-2-2 {
+            width: 50% !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1rem;
+    
+        }
+        .about-part-2-3 {
+            width: 50% !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .about-part-2-4 {
+            width: 50% !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /*////////////////   about end   ////////////////*/
+
+
+        @media (min-width:425px) and (max-width:576px) {
+
+            .about-container {
+                width: 100%;
+                height: 70vh;
+            }
+            .about {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start !important;
+                align-items: center;
+            }
+        
+            #about-h1 {
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 2.5rem;
+                margin-left: 0 !important;
+                font-size: x-large !important;
+                margin: 0 0 0 0 ;
+            }
+        
+        
+        
+            #about-span {
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 2.5rem;
+                font-size: x-large !important;
+                color: #E18234;
+                margin-top: -2rem !important;
+            }
+        
+            .about-part-2 {
+                display: flex;
+                justify-content: center !important;
+                flex-wrap: wrap !important;
+                width: 100%;
+                margin-top: 1rem !important;
+            }
+            
+            .about-part-2-1 {
+                width: 100% !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 1rem;
+            }
+            .about-part-2-2 {
+                width: 100% !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 1rem;
+        
+            }
+            .about-part-2-3 {
+                width: 100% !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .about-part-2-4 {
+                width: 100% !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+
