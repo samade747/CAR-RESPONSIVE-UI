@@ -101,6 +101,10 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 }
 
 
+.home-pic {
+    width: 500px;
+}
+
 
 
 .home-btn1 {
@@ -437,4 +441,9 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 
 .anima-scala:hover {
     transform: scale(0.1);
+}
+
+.faqsectionbb {
+   
+    border-radius: 50px;
 }
