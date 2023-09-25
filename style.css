@@ -444,11 +444,11 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 }
 
 .faqsectionbb {
-   
+    border: solid red;
     border-radius: 50px;
 }
 
-
 .footer {
-    background-color: #2472a5;
+    background-color: #349de2
+    ;
 }
