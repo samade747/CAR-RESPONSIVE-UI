@@ -120,7 +120,7 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 
 
 .home-pic {
-    width: 500px;
+    overflow: hidden;
 }
 
 
@@ -348,67 +348,6 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 
 
 /* Rental Car Section */
-
-.rental_car_sec i , .rental_car_sec p{
-    color: #1aa9e5;
-}
-
-.see_more_btn button{
-    padding: 15px 0;
-    border-radius: 3px;
-    border: 1px solid #1aa9e5;
-    color: #1aa9e5;
-    transition: 200ms;
-}
-
-.see_more_btn button:hover {
-    background-color: #1aa9e5;
-    color: white;
-    scale: 0.98;
-}
-
-.see_more_btn button:hover i {
-    color: #fff;
-}
-
-/* Car Booking Section */
-
-.car_booking_sec {
-    background-color: #fffcf7;
-}
-
-.filter_border {
-    border-radius: 4px;
-    border: 1px solid rgb(205, 203, 203);
-}
-
-.rent_cards {
-    border-radius: 6px;
-    box-shadow: 0 0 20px 0 rgb(221, 219, 219);
-    background-color: #fff;
-}
-
-.rent_cards h4 {
-    color: #005085;
-}
-
-.rent_cards button {
-    padding: 10px 0;
-    border: none;
-    outline: none;
-    border-radius: 0 0 6px 6px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    background-color: #1aa9e5;
-    color: #fff;
-}
-
-
-
-
-
-
-
 
 
 
