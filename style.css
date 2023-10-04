@@ -238,7 +238,7 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 
 /* //////////////// 3rd section find a car ////////////////// */
 
-.find-a-car-container {
+/* .find-a-car-container {
     width: 100%;
     height: 110vh;
     /* border: 2px solid red; */
@@ -279,7 +279,7 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 
 .find-a-car-div {
     margin-top: 6rem !important;
-}
+} */
 
 
 /* ////////////// 3rd section  ////////////////// */
@@ -290,7 +290,7 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 
 
 
-/* 4th book your suitablecar Start  */
+/* 4th book your suitablecar Start  ******* */
 
 .booking container {
     
@@ -305,10 +305,10 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
     
 }
 .bookingcarone container {
-    max-width: 90%;
+    width: 90%;
     /* border: 2px solid red; */
     
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -360,7 +360,7 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 
 @media screen and (max-width: 768px) {
     .about-container {
-        height: auto;
+        height: 100vh;
         text-align: center;
     }
     .about-part-2 {
@@ -383,8 +383,8 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
         margin-top: 0.5rem;
         margin-left: 0;
     }
-}
 
+}
 
 /* resposive for 4th section  */
 /* Small screens (phones) */
@@ -435,3 +435,4 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
     height: 70px;
 
 }
+
