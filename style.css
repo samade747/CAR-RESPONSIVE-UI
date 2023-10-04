@@ -238,17 +238,15 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 
 /* //////////////// 3rd section find a car ////////////////// */
 
-/* .find-a-car-container {
+.find-a-car-container {
     width: 100%;
     height: 110vh;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items:center;
 }
 .find-a-car {
     width: 90%;
-    /* border: 2px solid red; */
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -292,8 +290,7 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 
 /* 4th book your suitablecar Start  ******* */
 
-.booking container {
-    
+.booking container {    
     width: 100%;
     height: 100vh;
     /* border: 2px solid red; */
@@ -301,13 +298,12 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
-    
+    text-align: center;    
 }
+
 .bookingcarone container {
     width: 90%;
-    /* border: 2px solid red; */
-    
+    /* border: 2px solid red; */    
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -363,10 +359,12 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
         height: 100vh;
         text-align: center;
     }
+
     .about-part-2 {
         flex-direction: column;
         margin-top: 2rem;
     }
+
     .about-part-2-1,
     .about-part-2-2,
     .about-part-2-3,
